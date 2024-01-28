@@ -62,7 +62,7 @@ const Faq = () => {
                 className="bg-[#E3F1FF] p-[16px] rounded-[8px]"
               >
                 <Accordion.Header>
-                  <Accordion.Trigger className="flex w-full items-center justify-between">
+                  <Accordion.Trigger className="mr-10 flex w-full items-center justify-between">
                     <p className="text-left font-medium text-[#172026] lg:text-[18px]">
                       {item.question}
                     </p>
