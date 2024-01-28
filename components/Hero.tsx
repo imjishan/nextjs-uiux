@@ -39,6 +39,7 @@ const Hero = () => {
 
         <div className="absolute bottom-5 flex w-full flex-col items-center">
           <Image
+            quality={50}
             src={HeroImage}
             alt="hero image"
             className="-ml-4 h-[310px] sm:-mb-20 sm:h-[400px] lg:-mb-28 lg:h-auto xl:w-[70%]"
